@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(). {
-    int number
-    printf("enter number: ");
+    int number;
     scanf("%d",&number);
-    printf("You entered:")
+    printf("You entered:");
     return 0;
 }
