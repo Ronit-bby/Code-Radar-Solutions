@@ -4,15 +4,13 @@ int main()
 {
     int a, b;
     scanf("%d %d", &a, &b);
-    
-    // Check if a and b have opposite signs using XOR
     if ((a ^ b) <= 0) 
     {
-        printf("True\n");
+        printf("True");
     }
     else 
     {
-        printf("False\n");
+        printf("False");
     }
     return 0;
 }
