@@ -6,7 +6,7 @@ int main()
     scanf("%d %d", &a, &b);
     
     // Check if a and b have opposite signs using XOR
-    if ((a ^ b) < 0) 
+    if ((a ^ b) <= 0) 
     {
         printf("True\n");
     }
